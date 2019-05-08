@@ -3,22 +3,26 @@ header {
 }
 
 /*---------------Video----------------*/
+
 .section {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 100vh;
     display: flex;
     align-items:center;
     justify-content:center;
     overflow: hidden;
+    margin-right: 0;
+    
 }
+
 .section h2 {
     text-align: center;
     font-size: 3rem;
     font-family: "Roboto";
     background: #ffff00 ;
-    padding: 20px;
-    margin: 15px;
+    padding: 10px;
+    margin: 10px;
     z-index: 1;
     opacity: 0.5;
    
@@ -30,6 +34,20 @@ header {
   left: 0;
   width: 100%;
 }
+
+.color-overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   background-color: #f0ffff;
+   width: 100%;
+   height: 100vh;
+   opacity: 0.3;
+   margin: 0 auto;
+   padding: 0;
+}
+
+
 
 /*---------------Content--------------*/
 
@@ -47,4 +65,31 @@ header {
 .button-row {
     padding-left: 60px;
     padding-bottom: 40px;
+}
+
+/*---------------Slides pictures--------------*/
+
+h2 {
+    display: block;
+  font-size: 2em;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 0;
+  font-weight: bold;
+  background-color: #a9a9a9;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  background-color: #fff;
+   z-index: 1;
+   opacity: 0.1;
+   font-size: 6em;
+   color: #000;
+   
 }
