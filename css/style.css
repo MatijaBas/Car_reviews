@@ -1,9 +1,11 @@
 /*--------------General---------------*/
+
 .container-fluid {
     width: 100%;
 }
 
-html, body {
+html,
+body {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     padding: 0;
@@ -11,11 +13,13 @@ html, body {
 }
 
 /*---------------Navbar---------------*/
+
 nav {
-    box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
 }
 
 /*---------------Video----------------*/
+
 .video-wrapper {
     padding: 56.25% 0 0 0;
     position: relative;
@@ -32,7 +36,7 @@ nav {
 }
 
 .video-overlay {
-    background: rgba(0,0,0, 0.3);
+    background: rgba(0, 0, 0, 0.3);
     position: absolute;
     bottom: 50%;
     left: 0;
@@ -90,17 +94,52 @@ nav {
     padding-left: 1rem;
 }
 
+/*--------------Footer----------------*/
+
+footer {
+    padding-top: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-pinterest:hover {
+    color: #c8232c;
+}
+
+.fa-instagram:hover {
+    color: #fbad50;
+}
+
+
+.fa-twitter:hover {
+    color: #38a1f3;
+}
+
 /*---------------Post----Slides pictures--------------*/
 
 .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: auto;
-   z-index: 1;
-   opacity: 0.6;
-   font-size: 6rem;
-   color: #ffff00;
-   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    z-index: 1;
+    opacity: 0.6;
+    font-size: 6rem;
+    color: #ffff00;
+
 }

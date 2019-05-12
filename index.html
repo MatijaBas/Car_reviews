@@ -9,14 +9,18 @@
     <title>Car Reviews</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Custom CSS -->
+    <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/style.css" type="text/css" />
 </head>
 
 <body>
+    <!--Navbar-->
     <header>
         <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
             <a class="navbar-brand" href="index.html">Car Reviews</a>
@@ -50,6 +54,7 @@
     </header>
 
     <main>
+        <!--Video-->
         <div class="video-wrapper d-none d-lg-block">
             <iframe class="video" src="https://player.vimeo.com/video/334302997?background=1&muted=1&autoplay=1&loop=1&title=0&byline=0&portrait=0">
                        </iframe>
@@ -61,7 +66,8 @@
                 </div>
             </div>
         </div>
-
+        
+        <!--Latest Reviews-->
         <section class="container-fluid content">
             <h2 class="text-center latest-reviews">LATEST REVIEWS</h2>
             <hr class="latest-reviews-hr">
@@ -101,7 +107,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="row featurette">
                 <div class="col-md-8">
                     <h2 class="featurette-heading">Lamborghini Huracan Spyder</h2>
@@ -119,14 +125,39 @@
                     </div>
                 </div>
             </div>
-            
+
         </section>
 
     </main>
 
-    <footer>
-
-    </footer>
+    <!--Footer-->
+		<footer class="page-footer bg-secondary text-white">
+			<div class="container">
+				<div class="row">
+				    <!--Social Media-->
+					<div class="col-md-12 py-3 text-center">
+						<div class="mb-1 flex-centre">
+							<a class="ic-fb" href="https://facebook.com/#" target="_blank" aria-label="Find me on Facebook" rel="noopener">
+								<i class="fab fa-facebook-square fa-lg mr-md-5 mr-3 fa-2x"></i>
+							</a>
+							<a class="ic-pin" href="https://pinterest.com/#" target="_blank" aria-label="Find me on Pinterest" rel="noopener">
+								<i class="fab fa-pinterest fa-lg mr-md-5 mr-3 fa-2x"></i>
+							</a>
+							<a class="ic-ins" href="https://instagram.com/#" target="_blank" aria-label="Find me on Instagram" rel="noopener">
+								<i class="fab fa-instagram fa-lg mr-md-5 mr-3 fa-2x"></i>
+							</a>
+							<a class="ic-twi" href="https://twitter.com/#" target="_blank" aria-label="Find me on Twitter" rel="noopener">
+								<i class="fab fa-twitter fa-lg mr-md-5 mr-3 fa-2x"></i>
+							</a>
+						</div>
+						<!--Copyright-->
+						<div class="text-shadow text-center py-3">
+							© 2019 Copyright: Matija Basanovic | Code Institute
+						</div>
+					</div>
+				</div>
+			</div>	
+		</footer>
 
     <!--Bootstrap JS-->
     <script src="https://player.vimeo.com/api/player.js"></script>
