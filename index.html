@@ -10,19 +10,20 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Custom CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css" type="text/css" />
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
             <a class="navbar-brand" href="index.html">Car Reviews</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -48,30 +49,28 @@
     </header>
 
     <main>
-        <div class="section">
-
-            <h2>Welcome to Car Reviews</h2>
-            <div class="video-container">
-               <div class="color-overlay"></div>
-                <video autoplay loop muted background>
-                
-                 <source src="./videos/Ferrari.mp4" type="video/mp4">
-                 <source src="./videos/Ferrari.ogg" type="video/ogg">
-                </video>
-            </div>
+        <div class="video-wrapper d-none d-lg-block">
+                <iframe class="video" src="https://player.vimeo.com/video/334302997?background=1&muted=1&autoplay=1&loop=1&title=0&byline=0&portrait=0">
+                       </iframe>
+                <div class="container-fluid video-overlay">
+                    <div class="row">
+                        <div class="col-12 text-white">
+                            <h1 class="page-title">Welcome to Car Reviews</h1>
+                        </div>
+                    </div>
+                </div>
         </div>
-        <section class="content">
-            <h2 class="text-center m-3 p-3">LATEST REVIEWS</h2>
 
-            <hr class="featurette-divider">
+        <section class="container-fluid p-0">
+            <h2 class="text-center m-3 p-3">LATEST REVIEWS</h2>
 
             <div class="row featurette">
                 <div class="col-md-7">
                     <h2 class="featurette-heading">Lamborghini Huracan Spyder. <span class="text-muted">It’ll blow your mind.</span></h2>
                     <p class="lead">A post-scalping baby Lambo. But the Huracan Spyder is more than that – it’s the successor to the drop-top Gallardo, Sant’Agata’s most successful, numerous model ever. Of course, since the Gallardo showed up, the small matter of McLaren
-                        and Audi’s R8 have arisen, not to mention ever-more crackers Porsche Turbos also entering the baby supercar arena. So the Huracan’s wading into battle armed with a rare thing these days: a naturally aspirated V10 engine, good for
-                        602bhp and a 201mph top speed – with the roof down. There’s no faster or more fun way to get tinnitus. The spectacular triple-layer fabric top folds away in 17 seconds at up to 31mph, and the droppable rear window returns so there’s
-                        no barrier to V10 histrionics even if you’re battling typical British summertime weather..</p>
+                        and Audi’s R8 have arisen, not to mention ever-more crackers Porsche Turbos also entering the baby supercar arena.</p>
+                    <p class="lead"> So the Huracan’s wading into battle armed with a rare thing these days: a naturally aspirated V10 engine, good for 602bhp and a 201mph top speed – with the roof down. There’s no faster or more fun way to get tinnitus. The spectacular
+                        triple-layer fabric top folds away in 17 seconds at up to 31mph, and the droppable rear window returns so there’s no barrier to V10 histrionics even if you’re battling typical British summertime weather..</p>
                 </div>
                 <div class="col-md-5">
                     <img src="./images/Lambo.jpg" class="img-fluid mx-auto"></img>
@@ -83,20 +82,16 @@
                 </div>
             </div>
 
-            <hr class="featurette-divider">
-
             <div class="row featurette">
-                <div class="col-md-7 order-md-2">
+                <div class="col-md-7">
                     <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
                     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 
                 </div>
-                <div class="col-md-5 order-md-1">
+                <div class="col-md-5">
                     <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
                 </div>
             </div>
-
-            <hr class="featurette-divider">
 
             <div class="row featurette">
                 <div class="col-md-7">
@@ -117,7 +112,8 @@
 
     </footer>
 
-    <!-- Bootstrap JS -->
+     Bootstrap JS 
+    <script src="https://player.vimeo.com/api/player.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
