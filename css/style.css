@@ -32,54 +32,48 @@ nav {
 }
 
 .video-overlay {
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0, 0.3);
     position: absolute;
     bottom: 50%;
     left: 0;
     right: 0;
     width: 100%;
-    line-height: 1.5;
     text-align: center;
-    padding: 5rem 0;
     z-index: -98;
 }
 
 .page-title {
     font-size: 3.5rem;
     font-family: 'Gugi', cursive;
+    padding: 5rem 0;
 }
 
 
 /*---------------Content--------------*/
 
 .content {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .featurette {
     margin: 0 auto;
     padding: 3rem 0;
-   
+}
+
+.home-content-imgDiv {
+    text-align: right;
+}
+
+.home-content-img {
+    margin-top: 3.4rem;
 }
 
 .button-row {
-    padding-left: 4rem;
-    padding-bottom: 2.5rem;
+    padding-left: 1rem;
 }
 
-/*---------------Slides pictures--------------*/
-
-h2 {
-  display: block;
-  font-size: 2rem;
-  margin-top: 2.5rem;
-  margin-bottom: 2rem;
-  margin-left: .7rem;
-  margin-right: 0;
-  font-weight: bold;
-  background-color: #a9a9a9;
-}
+/*---------------Post----Slides pictures--------------*/
 
 .centered {
   position: absolute;
