@@ -56,9 +56,26 @@ nav {
     margin: 0 auto;
 }
 
+.latest-reviews {
+    margin-top: 5rem;
+}
+
+.latest-reviews-hr {
+    width: 30%;
+    border: 2px solid #ffc107;
+    margin-bottom: 4rem;
+}
+
 .featurette {
     margin: 0 auto;
-    padding: 3rem 0;
+    padding: 2rem 0;
+    border: 5px solid #dcdcdc;
+    margin-bottom: 3rem;
+}
+
+.featurette-heading {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1.5rem;
 }
 
 .home-content-imgDiv {
@@ -66,7 +83,7 @@ nav {
 }
 
 .home-content-img {
-    margin-top: 3.4rem;
+    margin-top: 4.3rem;
 }
 
 .button-row {
