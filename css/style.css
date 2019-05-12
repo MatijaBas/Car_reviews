@@ -129,6 +129,68 @@ footer a:hover {
     color: #38a1f3;
 }
 
+
+/*--------------------Contact--------------------------*/
+.contact {
+    padding: 10.5rem 0;
+}
+
+.contact .latest-reviews {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.contact-content {
+    width: 100%;
+}
+
+.info {
+    margin-top: 1.9rem;
+}
+
+.info i {
+    font-size: 1.9rem;
+    padding: 0;
+    margin: 0;
+    color: #02434b;
+    margin-right: 1.2rem;
+    text-align: center;
+    width: 1.2rem;
+}
+.contact-h4 {
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+.contact-h4 span {
+    font-size: 0.85rem;
+    color: #999999;
+}
+
+.form-control {
+    padding: 1.55rem;
+    font-size: 1rem;
+    margin-bottom: .7rem;
+    background: #f9f9f9;
+    border: 0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #ffc107;
+}
+
+.contact-button {
+    padding: .6rem;
+}
+
 /*---------------Post----Slides pictures--------------*/
 
 .centered {
