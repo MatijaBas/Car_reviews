@@ -131,6 +131,7 @@ footer a:hover {
 
 
 /*--------------------Contact--------------------------*/
+
 .contact {
     padding: 10.5rem 0;
 }
@@ -164,6 +165,7 @@ footer a:hover {
     text-align: center;
     width: 1.2rem;
 }
+
 .contact-h4 {
     font-size: 0.85rem;
     line-height: 1.4;
@@ -191,3 +193,16 @@ footer a:hover {
     padding: .6rem;
 }
 
+/*--------------------Gallery--------------------------*/
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 1rem;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
