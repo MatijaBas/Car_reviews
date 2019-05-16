@@ -98,6 +98,7 @@ nav {
 
 footer {
     padding-top: 2rem;
+   position: relative;
 }
 
 footer a {
@@ -199,6 +200,7 @@ footer a:hover {
   float: left;
   width: 33.33%;
   padding: 1rem;
+  margin-top: 3rem;
 }
 
 .row::after {
@@ -206,3 +208,33 @@ footer a:hover {
   clear: both;
   display: table;
 }
+
+/*--------------------Media Queries--------------------------*/
+
+@media (max-width:991px) {
+    .column{
+        width: 30%;
+        margin-top: 2rem;
+    
+    }
+}
+    
+    @media (max-width: 767px) {
+    .column{
+        width: 30%;
+        margin-top: 3rem;
+    }
+}
+
+/*@media (max-width: 767px) {*/
+/*     footer {*/
+/*         position: fixed;*/
+/*         bottom: 0;*/
+/*         left: 0;*/
+/*         right: 0;*/
+/*         text-align: center;*/
+/*     text-decoration: none;*/
+/*    color: white;*/
+/*    background-color: transparent;*/
+/*     }*/
+/*}*/
