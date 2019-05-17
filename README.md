@@ -1,20 +1,7 @@
+# README.md
 
+## Car Reviews Website
 
-Hi there! Welcome to Cloud9 IDE!
+This Website have a focus on latest reviews about the luxury sport cars. Website is for user that potenciali thinking about gething the new car ,
+but also for all car lowers.
 
-To get you started, we included a small hello world application.
-
-1) Open the hello-world.html file
-
-2) Click on the Preview button to open a live preview pane
-
-3) Make some changes to the file, save, watch the preview, and have fun!
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentatatin
-
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide

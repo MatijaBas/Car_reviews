@@ -1,7 +1,7 @@
 /*--------------General---------------*/
 
 .container-fluid {
-    width: 100%;
+    width: 99%;
 }
 
 html,
@@ -52,11 +52,24 @@ nav {
     padding: 5rem 0;
 }
 
+.special-hero-home {
+    background-image: url(https://www.topgear.com/sites/default/files/styles/fit_1960x1102/public/cars-car/carousel/2016/12/2gtc4lussojune2016.jpg?itok=vI1ntX3u);
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center 25%;
+}
+
+figure {
+    margin: 0 0 1rem;
+}
 
 /*---------------Content--------------*/
 
 .content {
-    width: 70%;
+
     margin: 0 auto;
 }
 
@@ -71,10 +84,11 @@ nav {
 }
 
 .featurette {
-    margin: 0 auto;
+    margin: 5rem;
     padding: 2rem 0;
     border: 5px solid #dcdcdc;
     margin-bottom: 3rem;
+    width: 91%;
 }
 
 .featurette-heading {
@@ -88,6 +102,7 @@ nav {
 
 .home-content-img {
     margin-top: 4.3rem;
+    width: 100%;
 }
 
 .button-row {
@@ -98,7 +113,7 @@ nav {
 
 footer {
     padding-top: 2rem;
-   position: relative;
+    position: relative;
 }
 
 footer a {
@@ -196,45 +211,42 @@ footer a:hover {
 
 /*--------------------Gallery--------------------------*/
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 1rem;
-  margin-top: 3rem;
+.row {
+    margin-top: 1rem;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.hero-img-gallery {
+    background-image: url(https://www.topgear.com/sites/default/files/styles/fit_1960x1102/public/cars-car/carousel/2015/02/buyers_guide_-_laf_-_front.jpg?itok=8Jy7840c);
+    background-position: center 55%;
 }
+
+.hero-img {
+    height: 400px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+    opacity: 0.7;
+}
+
 
 /*--------------------Media Queries--------------------------*/
 
-@media (max-width:991px) {
-    .column{
+@media (min-width:992px) {
+    .column {
         width: 30%;
         margin-top: 2rem;
-    
+
     }
 }
-    
-    @media (max-width: 767px) {
-    .column{
+
+@media (min-width: 768px) {
+    .column {
         width: 30%;
         margin-top: 3rem;
     }
 }
-
-/*@media (max-width: 767px) {*/
-/*     footer {*/
-/*         position: fixed;*/
-/*         bottom: 0;*/
-/*         left: 0;*/
-/*         right: 0;*/
-/*         text-align: center;*/
-/*     text-decoration: none;*/
-/*    color: white;*/
-/*    background-color: transparent;*/
-/*     }*/
-/*}*/

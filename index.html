@@ -56,13 +56,12 @@
                 </ul>
             </div>
         </nav>
-    </header>
 
-    <main>
-        <!--Video-->
+        <!--VIDEO-->
+        <!-- Video only active on desktop view, to save people from unwelcome data useage -->
         <div class="video-wrapper d-none d-lg-block">
-            <iframe class="video" src="https://player.vimeo.com/video/334302997?background=1&muted=1&autoplay=1&loop=1&title=0&byline=0&portrait=0">
-                       </iframe>
+            <iframe class="video" src="https://player.vimeo.com/video/334302997?background=1&muted=1&autoplay=1&loop=1&title=0&transparent=0&controls=0&byline=0&portrait=0"></iframe>
+           
             <div class="container-fluid video-overlay">
                 <div class="row">
                     <div class="col-12 text-white">
@@ -72,11 +71,25 @@
             </div>
         </div>
 
+        <div class="container-fluid p-0 m-0 d-lg-none">
+            <div class="row p-0 m-0">
+                <div class="col-12 p-0 m-0">
+                    <figure class="special-hero-home" title="White Ferrari"></figure>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- MAIN CONTENT OF HOME PAGE -->
+
+
+
         <!--Latest Reviews-->
         <section class="container-fluid content">
             <h2 class="text-center latest-reviews">LATEST REVIEWS</h2>
             <hr class="latest-reviews-hr">
-
+            <!--Car one-->
             <div class="row featurette">
                 <div class="col-md-8">
                     <h2 class="featurette-heading">Lamborghini Huracan Spyder</h2>
@@ -96,7 +109,7 @@
                     </div>
                 </div>
             </div>
-
+            <!--Car Two-->
             <div class="row featurette">
                 <div class="col-md-8">
                     <h2 class="featurette-heading">Bmw i8</h2>
@@ -116,7 +129,7 @@
                     </div>
                 </div>
             </div>
-
+            <!--Car Three-->
             <div class="row featurette">
                 <div class="col-md-8">
                     <h2 class="featurette-heading">Tesla Model S</h2>
@@ -137,9 +150,7 @@
                     </div>
                 </div>
             </div>
-
         </section>
-
     </main>
 
     <!--Footer-->
@@ -150,8 +161,8 @@
                 <div class="col-md-12 py-3 text-center">
                     <div class="mb-1 flex-centre">
                         <a class="ic-fb" href="https://facebook.com/#" target="_blank" aria-label="Find me on Facebook" rel="noopener">
-								<i class="fab fa-facebook-square fa-lg mr-md-5 mr-3 fa-2x"></i>
-							</a>
+							<i class="fab fa-facebook-square fa-lg mr-md-5 mr-3 fa-2x"></i>
+						</a>
                         <a class="ic-pin" href="https://pinterest.com/#" target="_blank" aria-label="Find me on Pinterest" rel="noopener">
 								<i class="fab fa-pinterest fa-lg mr-md-5 mr-3 fa-2x"></i>
 							</a>
@@ -164,7 +175,7 @@
                     </div>
                     <!--Copyright-->
                     <div class="text-shadow text-center py-3">
-                        © 2019 Copyright: Matija Basanovic | Code Institute
+                        &#169; 2019 Copyright: Matija Basanovic |Student @ Code Institute
                     </div>
                 </div>
             </div>
