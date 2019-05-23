@@ -83,11 +83,10 @@ figure {
 }
 
 .featurette {
-    margin: 5rem;
     padding: 2rem 0;
     border: 5px solid #dcdcdc;
     margin-bottom: 3rem;
-    width: 91%;
+    width: 100%;
 }
 
 .featurette-heading {
@@ -212,6 +211,7 @@ footer a:hover {
 
 .row {
     margin-top: 1rem;
+    margin-left: 0.1rem;
 }
 
 .hero-img-gallery {
@@ -247,5 +247,12 @@ footer a:hover {
     .column {
         width: 30%;
         margin-top: 3rem;
+    }
+}
+/*Im not shure is it right but looks much better on smaller devices*/
+
+@media (max-width: 568px) {
+    .btn-md {
+        margin-left: 4.5rem;
     }
 }

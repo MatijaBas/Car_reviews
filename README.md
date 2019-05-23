@@ -188,7 +188,8 @@ for my submitted project.[This repository can be found here](https://github.com/
 - The photos used in gallery.html were obtained from [Top Gear](https://www.topgear.com/) and [Google](https://www.google.com/search?q=sport+hybrid+cars&rlz=1C1JZAP_hrIE837IE837&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi16Mriu6jiAhXyVBUIHaZZBfMQ_AUIDigB&biw=1920&bih=937)
 
 ### Acknowledgements
-- To build this webpage i received inspiration from my second love, Sport Cars
-- Thank to nice people on SLACK that help me when I stuck and needed assistance
-- Big thank to my mentor Antonija Simic. She was allways there for me and show me so many things how to build modern webpage.She's great.
-- And at the end thank to my wife Sanja , who gave me so much free time so I can work on my project  
+- To build this webpage I received inspiration from my second love, Sport Cars
+- Thanks to nice people on SLACK that help me when I was stuck and needed assistance
+- Big thanks to my mentor Antonija Simic. She was allways there for me and show me so many things on how to build a modern webpage.She's great.
+- And at the end thanks to my wife Sanja , who gave me so much free time so I can work on my project  
+
